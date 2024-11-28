@@ -1,5 +1,5 @@
 export default function ContactUs(){
     return(
-        <div></div>
+        <div>Welcome to Contact us page</div>
     );
 }
