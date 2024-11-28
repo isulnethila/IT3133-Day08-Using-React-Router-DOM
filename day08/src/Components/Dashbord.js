@@ -1,5 +1,5 @@
 export default function Dashbord(){
     return(
-        <div></div>
+        <div>Hello Admin</div>
     );
 }

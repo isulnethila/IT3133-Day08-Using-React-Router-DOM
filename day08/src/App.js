@@ -15,6 +15,7 @@ function App() {
           <li><Link to="/home">Home</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/login">Login</Link></li>
         </ul>
       </nav>
 
@@ -22,6 +23,8 @@ function App() {
             <Route path='/home' element={<Home/>}/>
             <Route path='/about' element={<About/>}/>
             <Route path='/contact' element={<ContactUs/>}/>
+            <Route path='/login' element={<Login/>}/>
+            <Route path='/dash' element={<Dashbord/>}/>
         </Routes>
       </Router>
       
